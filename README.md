@@ -258,4 +258,4 @@ code can be tried out.
 
 **Bilal Dawood** — Erasmus Mundus FAME-AIS master's student, TU Darmstadt.
 Master's thesis: *Optimising Coal Waste-Derived Electrospun Carbon Fibre Anodes for
-Sodium-Ion Batteries*, in partnership with EnBW.
+Sodium-Ion Batteries*.
