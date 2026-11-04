@@ -1,0 +1,33 @@
+# Raw cycler data stays out of the repository by default, so that unpublished
+# measurements are not committed by accident. The one example file is let back in below.
+*.mpr
+*.mpt
+*.nda
+*.ndax
+*.xlsx
+*.xls
+*.csv
+!example_data/*.mpr
+!example_output/*.xlsx
+
+# Results the app writes next to the data
+*_GITT_results/
+*_GCPL_results/
+*_rate_test_results/
+output/
+outputs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

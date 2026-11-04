@@ -1,0 +1,55 @@
+# Look and behaviour of "Neware by Bilal"
+
+[server]
+enableStaticServing = true      # serves the Barlow font files in ./static (no Google Fonts, works offline)
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+
+[theme]
+base = "dark"
+primaryColor = "#F2B233"        # sodium D-line amber (589 nm)
+backgroundColor = "#121821"
+secondaryBackgroundColor = "#1A2230"
+textColor = "#E4E9F0"
+borderColor = "#2B3646"
+linkColor = "#F2B233"
+showWidgetBorder = true
+showSidebarBorder = true
+baseRadius = "0.4rem"
+baseFontSize = 15
+font = "Barlow, sans-serif"
+headingFont = "Barlow Semi Condensed, Barlow, sans-serif"
+
+[[theme.fontFaces]]
+family = "Barlow"
+url = "app/static/Barlow-Regular.ttf"
+weight = 400
+
+[[theme.fontFaces]]
+family = "Barlow"
+url = "app/static/Barlow-Medium.ttf"
+weight = 500
+
+[[theme.fontFaces]]
+family = "Barlow"
+url = "app/static/Barlow-SemiBold.ttf"
+weight = 600
+
+[[theme.fontFaces]]
+family = "Barlow Semi Condensed"
+url = "app/static/BarlowSemiCondensed-Medium.ttf"
+weight = 500
+
+[[theme.fontFaces]]
+family = "Barlow Semi Condensed"
+url = "app/static/BarlowSemiCondensed-SemiBold.ttf"
+weight = 600
+
+[theme.sidebar]
+backgroundColor = "#0E141C"
+secondaryBackgroundColor = "#1A2230"
+borderColor = "#2B3646"
